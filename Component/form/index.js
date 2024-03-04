@@ -5,15 +5,11 @@ class Form extends Component {
     super(this);
   }
   render() {
-    return (
-      <>
-        <div>
-          <span>hello form</span>
-          <span>wel come</span>
-        </div>
-      </>
-    );
+    <>
+      <div>
+        <span>hello form</span>
+        <span>wel come</span>
+      </div>
+    </>;
   }
 }
-
-export default Form;

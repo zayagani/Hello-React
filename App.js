@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //import { Form } from ".";
+=======
+import { Form } from ".";
+>>>>>>> 95d85b656725bf974976ef70a415b7a8d68cb1f0
 
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, "sam", [
@@ -22,6 +26,12 @@ const parent = React.createElement("div", { id: "parent" }, [
 
 console.log(parent, "ppp"); // heading is Object not h1 tag
 const root = ReactDOM.createRoot(document.getElementById("root"));
+<<<<<<< HEAD
 root.render(parent); // render method is converting heading object into h1 tag
 
 //export default App;
+=======
+root.render(Form); // render method is converting heading object into h1 tag
+
+export default App;
+>>>>>>> 95d85b656725bf974976ef70a415b7a8d68cb1f0
