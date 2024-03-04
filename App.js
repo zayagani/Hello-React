@@ -1,3 +1,5 @@
+//import { Form } from ".";
+
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, "sam", [
     React.createElement("h1", { id: "headings" }, "hello iam heading"),
@@ -8,6 +10,8 @@ const parent = React.createElement("div", { id: "parent" }, [
     React.createElement("h1", { id: "headings" }, "hello iam heading"),
     React.createElement("h2", { id: "headings" }, "hello iam heading h2"),
   ]),
+
+  React.createElement("span", { id: "fewspan" }, "hello span"),
 ]);
 
 // const heading = React.createElement(
@@ -19,3 +23,5 @@ const parent = React.createElement("div", { id: "parent" }, [
 console.log(parent, "ppp"); // heading is Object not h1 tag
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent); // render method is converting heading object into h1 tag
+
+//export default App;
