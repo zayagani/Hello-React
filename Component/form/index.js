@@ -9,6 +9,7 @@ class Form extends Component {
       <div>
         <span>hello form</span>
         <span>wel come</span>
+        <div>Create form component</div>
       </div>
     </>;
   }
