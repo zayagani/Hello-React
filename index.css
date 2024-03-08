@@ -1,6 +1,9 @@
 #heading {
   color: aqua;
 }
+.fewspanClass {
+  color: green !important;
+}
 #fewspan {
   color: brown;
 }

@@ -9,7 +9,7 @@
   </head>
   <body>
     <body>
-      <div id="root"></div>
+      <div id="root">div id root element</div>
       <script
         crossorigin
         src="https://unpkg.com/react@18/umd/react.development.js"
@@ -20,6 +20,16 @@
       ></script>
 
       <script src="./App.js"></script>
+      <script>
+        const btns = document.getElementById("btn");
+        console.log("before btn", document.getElementById("btn"));
+        if (btns) {
+          console.log("after btn");
+          btns.addEventListener("click", function () {
+            alert("hi");
+          });
+        }
+      </script>
     </body>
   </body>
 </html>
